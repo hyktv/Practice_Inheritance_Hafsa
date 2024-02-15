@@ -8,7 +8,6 @@ namespace Practice_Inheritance_Hafsa
 {
     internal class Land : Vehicle
     {
-        //feild
         public int Wheels { get; set; }
         public Land(int wheels, string color) : base(color)
         {

@@ -8,7 +8,6 @@ namespace Practice_Inheritance_Hafsa
 {
     internal class Plane : Air
     {
-        //feild
         public int NumberOfJets { get; set; }
         public Plane(int numberOfJets, string color) : base(color)
         {

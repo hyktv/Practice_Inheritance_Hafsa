@@ -8,7 +8,6 @@ namespace Practice_Inheritance_Hafsa
 {
     internal class Helicopter : Air
     {
-        //feild
         public int NumberOfPropellers { get; set; }
         public Helicopter(int numberOfPropellers, string color) : base(color)
         {

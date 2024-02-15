@@ -10,7 +10,6 @@ namespace Practice_Inheritance_Hafsa
 
     internal class Sea : Vehicle
     {
-        //feild
         public Type type { get; set; }
         public Sea(Type type1, string color) : base(color)
         {
